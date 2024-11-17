@@ -1,0 +1,56 @@
+# i) Arithmetic Operators
+a = 10
+b = 3
+print("Addition:", a + b)
+print("Subtraction:", a - b)
+print("Multiplication:", a * b)
+print("Division:", a / b)
+print("Modulus:", a % b)
+print("Exponentiation:", a ** b)
+print("Floor Division:", a // b)
+
+# ii) Relational Operators
+print("Equal to:", a == b)
+print("Not equal to:", a != b)
+print("Greater than:", a > b)
+print("Less than:", a < b)
+print("Greater than or equal to:", a >= b)
+print("Less than or equal to:", a <= b)
+
+# iii) Assignment Operators
+c = 5
+c += 2
+print("c after += 2:", c)
+c *= 3
+print("c after *= 3:", c)
+
+# iv) Logical Operators
+x = True
+y = False
+print("Logical AND:", x and y)
+print("Logical OR:", x or y)
+print("Logical NOT:", not x)
+
+# v) Bitwise Operators
+m = 4
+n = 1
+print("Bitwise AND:", m & n)
+print("Bitwise OR:", m | n)
+print("Bitwise XOR:", m ^ n)
+print("Bitwise NOT:", ~m)
+print("Left Shift:", m << 1)
+print("Right Shift:", m >> 1)
+
+# vi) Ternary Operator
+max_value = a if a > b else b
+print("Max value:", max_value)
+
+# vii) Membership Operators
+lst = [1, 2, 3, 4, 5]
+print("3 in list:", 3 in lst)
+print("6 not in list:", 6 not in lst)
+
+# viii) Identity Operators
+d = a
+print("a is d:", a is d)
+print("a is not b:", a is not b)
